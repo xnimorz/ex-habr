@@ -1,0 +1,482 @@
+
+
+.g-clear
+{
+    clear:both;
+}
+
+.b-page
+{
+    width:100%;
+    margin:0;
+    background-color:#f7f7f7;
+    background:url("../img/bg.png");
+    font-family:Oswald,Tahoma;
+    font-size:12px;
+}
+
+    
+
+.b-page__head-line
+{
+    background-color:#7e7e7e;
+    height:5px;
+    
+    width:100%;
+}
+
+.b-page__line
+{
+
+    width: 960px;
+    margin: 0 auto;
+    margin-top:27px;    
+}
+
+.b-head
+{
+    height:36px;
+}
+    
+
+.b-head__logo
+{
+    float: left;    
+}
+
+.b-head__search
+{
+    float:right;
+}
+
+.b-search__input
+{
+    display:inline-block;
+}
+
+.b-input
+{
+    background-color: #f3f3f3;
+    border:1px solid #e7e7e7;    
+}
+
+.b-input_search
+{
+    height:32px;
+    padding:0 10px;
+    width:135px;
+    border-right:none;
+}
+
+    .b-button
+    {
+        color:#fefefe;
+        height:34px;
+        padding:0 12px;
+        line-height:33px;
+        cursor:pointer;
+        background-color:#29c5e6;
+    }
+
+.b-menu
+{
+    margin:0;
+    padding:0;
+    list-style:none; 
+    width:100%;
+    display:table;
+    table-layout: fixed;   
+
+}
+
+
+
+
+.b-link_menu
+{
+    text-align:center;
+    color:#bfbfbf;
+    cursor:pointer;
+    font-size:14px;
+    height:38px;
+    background-color:#f3f3f3;
+    line-height:38px;
+    border: 1px solid #e7e7e7;
+    display:table-cell;
+    text-decoration: none;
+}
+
+.b-link_menu_active
+{
+    color:#fefefe;
+    background-color:#29c5e6;
+    border:1px solid #29c5e6;
+}
+
+.b-slide__text
+{
+    position:relative; 
+    top:40px;
+    left:35px;
+    z-index:10;
+}
+
+.b-slide__header
+{
+    font-size:42px;
+    color:#5a5a5a;    
+}
+
+.b-slide__subtext
+{
+    font-size:20px;
+    color:#b0b0b0;
+}
+
+.b-slide__image
+{
+    z-index: 0;
+    margin-top:-62px;
+}
+
+.b-slider__list
+{
+    height:50px;
+    background-color:#f3f3f3;
+    width:100%;
+    margin-top:-2px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.b-slide-list
+{
+    margin:0;
+    padding:0;
+    list-style:none; 
+    width:100%;    
+    display:table;
+    table-layout:fixed;    
+    font-size:16px;
+    color:#8f8f8f;
+}
+
+.b-slide-list__item
+{
+    display:table-cell;
+}
+
+.b-slider-case-element__number
+{
+    text-align:center;
+    display:inline-block;
+    width:22px;
+    margin-left:12px;
+    margin-top:12px;
+    height:22px;
+    background-color: #8f8f8f;
+    color:#f3f3f3;
+}
+
+.b-slider-case-element
+{
+    cursor:pointer;
+}
+
+.b-slider-case-element__number_active
+{
+    background-color:#29c5e6;
+    color:#fefefe;
+}
+
+.b-slider-case-element__text_active
+{
+    color:#29c5e6;
+}
+
+.b-item-head__img
+{
+    display:inline-block;
+    background: url("../img/bg.png");
+    padding:2px;
+    
+}
+
+.b-item-head__text
+{
+    display:inline-block;
+}
+
+.b-item-head
+{
+    line-height:16px;
+    height:19px;
+    background:url('../img/hbg.png') repeat;
+}
+
+
+.b-item-head__text
+{
+    display:inline;
+    font-size:16px;   
+    color:#8f8f8f;
+    padding:3px;    
+    padding-right:10px;  
+    background: url("../img/bg.png");
+}
+
+
+
+.b-company
+{
+    width:100%;
+}
+
+.b-company__content
+{
+    margin-top:15px;
+}
+.b-content__img
+{
+    float:left;
+    margin-right:20px;
+}
+.b-content__text
+{
+    color:#8f8f8f;
+    font-size:12px;
+}
+.b-link,.b-content__link
+{
+    color:#525252;
+    font-size:12px;
+        
+}
+
+.b-team
+{
+    margin:0;
+    padding:0;
+    list-style:none; 
+}
+
+.b-team__item
+{
+    margin-top:5px;
+    
+    display:block;
+}
+
+.b-teammate__img
+{
+    margin-right:10px;
+    
+}
+
+
+.b-teammate__text,.b-teammate__head
+{
+    color:#8f8f8f;
+    font-size:11px;
+}
+
+
+
+
+.b-main__item
+{
+    float:left;
+    margin-left:10px;
+    width:460px;
+}
+
+
+.b-main__item_small
+{
+    width:300px
+}
+
+.b-teammate__img
+{
+    float:left;
+}
+
+.b-main__item_long
+{
+    width:920px;
+}
+
+.b-page__footer
+{
+    margin-top:15px;
+    background-color:#7e7e7e;
+}
+
+.b-footer
+{
+    width:960px;
+    margin:0 auto;
+}
+
+.b-footer__twitter,.b-footer__social,.b-footer__sitemap
+{
+    margin-top:15px;
+    margin-left:10px;
+    float:left;
+}
+
+.b-networks
+{
+    width:130px;
+}
+
+
+
+.b-sitemap
+{
+    width: 150px;
+}
+
+.b-twitter
+{
+    width:300px;
+}
+
+.b-twitter__header,.b-sitemap__header,.b-networks__header
+{
+    color:#fff;
+    font-size:14px;
+    width:100%;
+    border-bottom:1px solid #878787;
+}
+
+.b-twitter__time
+{
+    margin-top:5px;
+    font-size:11px;
+    color:#b4aeae;
+    text-decoration:underline;
+}
+
+.b-twitter__text
+{
+    margin-top:5px;
+    font-size:11px;
+    color:#dbdbdb;
+}
+
+.b-footer__underline
+{
+    height:10px;
+}
+
+.b-sitemap__links
+{
+    float:left;
+}
+
+.b-link_white
+{
+    color:#dbdbdb;    
+}
+
+.b-link_undecorate
+{
+    text-decoration:none;
+}
+
+.b-link_block
+{
+    margin-top:8px;
+    display:block;
+}
+
+.b-sitemap__links_right
+{
+    float:right;
+    margin-right:20px;
+}
+
+.b-networks__icon
+{
+    background:url("../img/social.png") 0 0;
+    width:30px;
+    height:30px;
+    display: inline-block;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.b-networks__icon_small
+{
+    width:16px;
+    height:16px;
+    margin-right:5px;
+}
+
+.b-networks__icon_twitter
+{
+    background-position:0 0;
+}
+
+.b-networks__icon_facebook
+{
+    background-position: -40px 0;
+}
+
+.b-networks__icon_google
+{
+    background-position:-80px 0;
+}
+
+.b-networks__icon_vimeo
+{
+    background-position:0 -38px;
+}
+
+.b-networks__icon_youtube
+{
+    background-position: -23px -38px;
+}
+
+.b-networks__icon_flickr
+{
+    background-position: -46px -38px;
+}
+
+.b-networks__icon_instagram
+{
+    background-position: -69px -38px;
+}
+
+.b-networks__icon_rss
+{
+    background-position: -92px -38px;
+}
+
+.b-footer__logo
+{
+    float:right;
+    margin-top:23px;
+    margin-right:40px;
+}
+
+.b-footer-logo__img
+{
+    float:right;
+}
+
+.b-footer-logo__copyright
+{
+    clear:right;
+}
+
+.b-link_small
+{
+    font-size:10px;    
+}
+
+.b-footer-logo__copyright
+{
+    font-size:10px;
+    color:#dbdbdb;
+}
